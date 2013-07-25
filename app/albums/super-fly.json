@@ -1,0 +1,26 @@
+{
+  "title": "Super Fly",
+  "artist": "Curtis Mayfield",
+  "imageUrl": "img/curtis.jpg",
+  "id": "super-fly",
+  "songs": [
+    {
+      "title": "No thing on me",
+      "duration": "298",
+      "track": 1,
+      "mp3Url": "mp3/no-thing-on-me.mp3"
+    },
+    {
+      "title": "Kung Fu",
+      "duration": "383",
+      "track": 2,
+      "mp3Url": "mp3/kung-fu.mp3"
+    },
+    {
+      "title": "Gypsy Woman",
+      "duration": "210",
+      "track": 3,
+      "mp3Url": "mp3/gypsy-woman.mp3"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<img ng-src="{{album.imageUrl}}" />
+<button class="play" ng-click="togglePlaying()">{{playSymbol}}</button>
+<div class="song-details">
+  <h3>{{song.title}}</h3>
+  <h4>{{album.artist}} - {{album.title}}</h4>
+  <span>{{currentTime | formatDuration}}</span>
+  <audio autoplay ng-src="{{song.mp3Url}}" audio-events></audio>
+</div>

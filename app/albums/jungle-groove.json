@@ -1,0 +1,26 @@
+{
+  "title": "Jungle Groove",
+  "artist": "James Brown",
+  "imageUrl": "img/james_brown.jpg",
+  "id": "jungle-groove",
+  "songs": [
+    {
+      "title": "I got ants in my pants",
+      "duration": "448",
+      "track": 1,
+      "mp3Url": "mp3/ants-in-my-pants.mp3"
+    },
+    {
+      "title": "Bring it up",
+      "duration": "280",
+      "track": 2,
+      "mp3Url": "mp3/bring-it-up.mp3"
+    },
+    {
+      "title": "World of soul",
+      "duration": "318",
+      "track": 3,
+      "mp3Url": "mp3/world-of-soul.mp3"
+    }
+  ]
+}

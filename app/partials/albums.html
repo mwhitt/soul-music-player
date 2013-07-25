@@ -1,0 +1,16 @@
+<ul class="search cf">
+  <li><input ng-model="query" placeholder="Search by artist or album"></li>
+  <li>
+    <span>Sort by:</span>
+    <select ng-model="orderProp">
+      <option value="artist">Artist</option>
+      <option value="title">Album</option>
+    </select></li>
+</ul>
+<ul class="album-list cf">
+  <li ng-repeat="album in albums | filter:query | orderBy:orderProp">
+    <a href="#/albums/{{album.id}}"><img ng-src="{{album.imageUrl}}" /></a>
+    <h2>{{album.artist}}</h2>
+    <h3>{{album.title}}</h3>
+  </li>
+</ul>

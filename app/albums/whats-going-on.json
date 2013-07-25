@@ -1,0 +1,26 @@
+{
+  "title": "What's going on",
+  "artist": "Marvin Gaye",
+  "imageUrl": "img/marvin.jpg",
+  "id": "whats-going-on",
+  "songs": [
+    {
+      "title": "Flyin' High",
+      "duration": "232",
+      "track": 1,
+      "mp3Url": "mp3/flyin-high.mp3"
+    },
+    {
+      "title": "'T' plays it cool",
+      "duration": "269",
+      "track": 2,
+      "mp3Url": "mp3/plays-it-cool.mp3"
+    },
+    {
+      "title": "Right on",
+      "duration": "454",
+      "track": 3,
+      "mp3Url": "mp3/right-on.mp3"
+    }
+  ]
+}

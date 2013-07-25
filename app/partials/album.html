@@ -1,0 +1,26 @@
+<div class="album-details cf">
+  <table>
+    <caption>
+      <h2>{{album.title}}</h2>
+      <h3>{{album.artist}}</h3>
+      <p>{{test}}</p>
+    </caption>
+    <tbody>
+      <tr ng-repeat="song in album.songs" class="album-track" ng-click="play(album, song)" >
+        <td class="track-number">
+          <span class="track">{{song.track}}</span>
+          <span class="play-arrow">▶</span>
+        </td>
+        <td class="track-title">{{song.title}}</td>
+        <td class="track-time">{{song.duration | formatDuration}}</td>
+      </tr>
+      <tr>
+        <td colspan="3" class="total-time">Total time: {{album.songs | totalDuration | formatDuration}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="album-cover clearfix">
+    <img ng-src="{{album.imageUrl}}" />
+    <div class="gradient"></div>
+  </div>
+</div>

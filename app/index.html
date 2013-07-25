@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" ng-app="soulPlayer">
+<head>
+  <meta charset="utf-8">
+  <title>Soul Center of the Universe - Music Player</title>
+  <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body>
+  <header class="cf" ng-controller="NowPlayingCtrl">
+    <img src="/app/img/scu.png" />
+    <h1>Music Player</h1>
+    <div class="song-playing">
+      <h2 ng-hide="getAlbum()">Play some of that good soul music from the albums below.</h2>
+      <div ng-show="getAlbum()"><audio-player song="getSong()" album="getAlbum()"></audio-player></div>
+    </div>
+  </header>
+
+  <div ng-view></div>
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="lib/angular/angular.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "title": "The Soul Album",
+  "artist": "Otis Redding",
+  "imageUrl": "img/otis.jpg",
+  "id": "the-soul-album",
+  "songs": [
+    {
+      "title": "Scratch my back",
+      "duration": "162",
+      "track": 1,
+      "mp3Url": "mp3/scratch-my-back.mp3"
+    },
+    {
+      "title": "Champagne And Wine",
+      "duration": "182",
+      "track": 2,
+      "mp3Url": "mp3/champagne-and-wine.mp3"
+    },
+    {
+      "title": "The Dock Of The Bay",
+      "duration": "166",
+      "track": 3,
+      "mp3Url": "mp3/dock-of-the-bay.mp3"
+    }
+  ]
+}

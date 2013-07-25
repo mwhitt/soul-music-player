@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Jungle Groove",
+    "artist": "James Brown",
+    "imageUrl": "img/james_brown.jpg",
+    "id": "jungle-groove"
+  },
+  {
+    "title": "Super Fly",
+    "artist": "Curtis Mayfield",
+    "imageUrl": "img/curtis.jpg",
+    "id": "super-fly"
+  },
+  {
+    "title": "The Soul Album",
+    "artist": "Otis Redding",
+    "imageUrl": "img/otis.jpg",
+    "id": "the-soul-album"
+  },
+  {
+    "title": "What's going on",
+    "artist": "Marvin Gaye",
+    "imageUrl": "img/marvin.jpg",
+    "id": "whats-going-on"
+  }
+]
